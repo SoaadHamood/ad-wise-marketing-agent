@@ -4,5 +4,6 @@ gunicorn
 requests
 python-dotenv
 pydantic
-pinecone-client
+pinecone
+
 sentence-transformers
