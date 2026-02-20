@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gunicorn
+requests
+python-dotenv
+pydantic
+pinecone-client
+sentence-transformers
