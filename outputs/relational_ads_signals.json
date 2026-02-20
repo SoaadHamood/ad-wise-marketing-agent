@@ -1,0 +1,1186 @@
+{
+  "dataset": "relational_ads",
+  "overall_counts": {
+    "impressions": 343157,
+    "likes": 12145,
+    "shares": 1978,
+    "clicks": 40495,
+    "events_total": 403967
+  },
+  "overall_kpis": {
+    "n_events": 403967,
+    "n_users": 9950,
+    "n_ads": 200,
+    "n_campaigns": 48,
+    "impressions": 343157,
+    "likes": 12145,
+    "shares": 1978,
+    "clicks": 40495,
+    "engagement_rate": 0.041156,
+    "ctr": 0.118007
+  },
+  "distributions": {
+    "event_type_top": [
+      {
+        "value": "impression",
+        "count": 343157
+      },
+      {
+        "value": "click",
+        "count": 40495
+      },
+      {
+        "value": "like",
+        "count": 12145
+      },
+      {
+        "value": "comment",
+        "count": 4142
+      },
+      {
+        "value": "purchase",
+        "count": 2050
+      },
+      {
+        "value": "share",
+        "count": 1978
+      }
+    ],
+    "platform_top": [
+      {
+        "value": "Facebook",
+        "count": 256548
+      },
+      {
+        "value": "Instagram",
+        "count": 147419
+      }
+    ],
+    "age_group_top": [
+      {
+        "value": "25-34",
+        "count": 167480
+      },
+      {
+        "value": "18-24",
+        "count": 125574
+      },
+      {
+        "value": "35-44",
+        "count": 58945
+      },
+      {
+        "value": "16-17",
+        "count": 35440
+      },
+      {
+        "value": "45-54",
+        "count": 13158
+      },
+      {
+        "value": "55-65",
+        "count": 3370
+      }
+    ],
+    "country_top": [
+      {
+        "value": "United States",
+        "count": 122002
+      },
+      {
+        "value": "United Kingdom",
+        "count": 60775
+      },
+      {
+        "value": "Canada",
+        "count": 40637
+      },
+      {
+        "value": "India",
+        "count": 37913
+      },
+      {
+        "value": "Germany",
+        "count": 33130
+      },
+      {
+        "value": "Australia",
+        "count": 28853
+      },
+      {
+        "value": "Brazil",
+        "count": 24607
+      },
+      {
+        "value": "Mexico",
+        "count": 20925
+      },
+      {
+        "value": "Japan",
+        "count": 19780
+      },
+      {
+        "value": "France",
+        "count": 15345
+      }
+    ]
+  },
+  "group_summaries": {
+    "by_platform": {
+      "top10_by_engagement_rate": [
+        {
+          "ad_platform": "Instagram",
+          "clicks": 14854,
+          "comment": 1487,
+          "impressions": 125115,
+          "likes": 4556,
+          "purchase": 717,
+          "shares": 690,
+          "engagements": 5246,
+          "engagement_rate": 0.04192942492906526,
+          "ctr": 0.1187227750469568
+        },
+        {
+          "ad_platform": "Facebook",
+          "clicks": 25641,
+          "comment": 2655,
+          "impressions": 218042,
+          "likes": 7589,
+          "purchase": 1333,
+          "shares": 1288,
+          "engagements": 8877,
+          "engagement_rate": 0.04071233982443749,
+          "ctr": 0.11759660982746444
+        }
+      ],
+      "top10_by_impressions": [
+        {
+          "ad_platform": "Facebook",
+          "clicks": 25641,
+          "comment": 2655,
+          "impressions": 218042,
+          "likes": 7589,
+          "purchase": 1333,
+          "shares": 1288,
+          "engagements": 8877,
+          "engagement_rate": 0.04071233982443749,
+          "ctr": 0.11759660982746444
+        },
+        {
+          "ad_platform": "Instagram",
+          "clicks": 14854,
+          "comment": 1487,
+          "impressions": 125115,
+          "likes": 4556,
+          "purchase": 717,
+          "shares": 690,
+          "engagements": 5246,
+          "engagement_rate": 0.04192942492906526,
+          "ctr": 0.1187227750469568
+        }
+      ]
+    },
+    "by_age_group": {
+      "top10_by_engagement_rate": [
+        {
+          "age_group": "55-65",
+          "clicks": 339,
+          "comment": 27,
+          "impressions": 2855,
+          "likes": 119,
+          "purchase": 17,
+          "shares": 13,
+          "engagements": 132,
+          "engagement_rate": 0.04623467600700525,
+          "ctr": 0.11873905429071804
+        },
+        {
+          "age_group": "45-54",
+          "clicks": 1348,
+          "comment": 128,
+          "impressions": 11134,
+          "likes": 424,
+          "purchase": 66,
+          "shares": 58,
+          "engagements": 482,
+          "engagement_rate": 0.04329082090892761,
+          "ctr": 0.12107059457517513
+        },
+        {
+          "age_group": "35-44",
+          "clicks": 5885,
+          "comment": 630,
+          "impressions": 50020,
+          "likes": 1798,
+          "purchase": 307,
+          "shares": 305,
+          "engagements": 2103,
+          "engagement_rate": 0.04204318272690924,
+          "ctr": 0.11765293882447021
+        },
+        {
+          "age_group": "18-24",
+          "clicks": 12532,
+          "comment": 1257,
+          "impressions": 106744,
+          "likes": 3766,
+          "purchase": 644,
+          "shares": 631,
+          "engagements": 4397,
+          "engagement_rate": 0.04119201079217567,
+          "ctr": 0.11740238327212771
+        },
+        {
+          "age_group": "25-34",
+          "clicks": 16855,
+          "comment": 1727,
+          "impressions": 142248,
+          "likes": 4987,
+          "purchase": 857,
+          "shares": 806,
+          "engagements": 5793,
+          "engagement_rate": 0.04072464990720432,
+          "ctr": 0.11849024239356616
+        },
+        {
+          "age_group": "16-17",
+          "clicks": 3536,
+          "comment": 373,
+          "impressions": 30156,
+          "likes": 1051,
+          "purchase": 159,
+          "shares": 165,
+          "engagements": 1216,
+          "engagement_rate": 0.04032365035150551,
+          "ctr": 0.11725693062740417
+        }
+      ],
+      "top10_by_impressions": [
+        {
+          "age_group": "25-34",
+          "clicks": 16855,
+          "comment": 1727,
+          "impressions": 142248,
+          "likes": 4987,
+          "purchase": 857,
+          "shares": 806,
+          "engagements": 5793,
+          "engagement_rate": 0.04072464990720432,
+          "ctr": 0.11849024239356616
+        },
+        {
+          "age_group": "18-24",
+          "clicks": 12532,
+          "comment": 1257,
+          "impressions": 106744,
+          "likes": 3766,
+          "purchase": 644,
+          "shares": 631,
+          "engagements": 4397,
+          "engagement_rate": 0.04119201079217567,
+          "ctr": 0.11740238327212771
+        },
+        {
+          "age_group": "35-44",
+          "clicks": 5885,
+          "comment": 630,
+          "impressions": 50020,
+          "likes": 1798,
+          "purchase": 307,
+          "shares": 305,
+          "engagements": 2103,
+          "engagement_rate": 0.04204318272690924,
+          "ctr": 0.11765293882447021
+        },
+        {
+          "age_group": "16-17",
+          "clicks": 3536,
+          "comment": 373,
+          "impressions": 30156,
+          "likes": 1051,
+          "purchase": 159,
+          "shares": 165,
+          "engagements": 1216,
+          "engagement_rate": 0.04032365035150551,
+          "ctr": 0.11725693062740417
+        },
+        {
+          "age_group": "45-54",
+          "clicks": 1348,
+          "comment": 128,
+          "impressions": 11134,
+          "likes": 424,
+          "purchase": 66,
+          "shares": 58,
+          "engagements": 482,
+          "engagement_rate": 0.04329082090892761,
+          "ctr": 0.12107059457517513
+        },
+        {
+          "age_group": "55-65",
+          "clicks": 339,
+          "comment": 27,
+          "impressions": 2855,
+          "likes": 119,
+          "purchase": 17,
+          "shares": 13,
+          "engagements": 132,
+          "engagement_rate": 0.04623467600700525,
+          "ctr": 0.11873905429071804
+        }
+      ]
+    },
+    "by_campaign": {
+      "top10_by_engagement_rate": [
+        {
+          "campaign_id": 50.0,
+          "clicks": 181.0,
+          "comment": 13.0,
+          "impressions": 1728.0,
+          "likes": 91.0,
+          "purchase": 8.0,
+          "shares": 7.0,
+          "engagements": 98.0,
+          "engagement_rate": 0.056712962962962965,
+          "ctr": 0.10474537037037036,
+          "total_budget": 47274.7,
+          "cpe": 482.39489795918365,
+          "cpm_like": 27358.043981481478
+        },
+        {
+          "campaign_id": 5.0,
+          "clicks": 588.0,
+          "comment": 70.0,
+          "impressions": 5160.0,
+          "likes": 219.0,
+          "purchase": 34.0,
+          "shares": 28.0,
+          "engagements": 247.0,
+          "engagement_rate": 0.047868217054263563,
+          "ctr": 0.11395348837209303,
+          "total_budget": 68376.69,
+          "cpe": 276.82870445344133,
+          "cpm_like": 13251.296511627908
+        },
+        {
+          "campaign_id": 40.0,
+          "clicks": 826.0,
+          "comment": 84.0,
+          "impressions": 6751.0,
+          "likes": 267.0,
+          "purchase": 39.0,
+          "shares": 42.0,
+          "engagements": 309.0,
+          "engagement_rate": 0.04577099688934973,
+          "ctr": 0.12235224411198341,
+          "total_budget": 53936.41000000001,
+          "cpe": 174.5514886731392,
+          "cpm_like": 7989.3956450896185
+        },
+        {
+          "campaign_id": 27.0,
+          "clicks": 397.0,
+          "comment": 41.0,
+          "impressions": 3355.0,
+          "likes": 129.0,
+          "purchase": 33.0,
+          "shares": 23.0,
+          "engagements": 152.0,
+          "engagement_rate": 0.045305514157973174,
+          "ctr": 0.11833084947839047,
+          "total_budget": 12986.3,
+          "cpe": 85.4361842105263,
+          "cpm_like": 3870.730253353204
+        },
+        {
+          "campaign_id": 26.0,
+          "clicks": 569.0,
+          "comment": 65.0,
+          "impressions": 5178.0,
+          "likes": 204.0,
+          "purchase": 37.0,
+          "shares": 28.0,
+          "engagements": 232.0,
+          "engagement_rate": 0.044804943993820005,
+          "ctr": 0.10988798764001545,
+          "total_budget": 44538.87,
+          "cpe": 191.9778879310345,
+          "cpm_like": 8601.558516801855
+        },
+        {
+          "campaign_id": 6.0,
+          "clicks": 577.0,
+          "comment": 59.0,
+          "impressions": 5165.0,
+          "likes": 205.0,
+          "purchase": 33.0,
+          "shares": 26.0,
+          "engagements": 231.0,
+          "engagement_rate": 0.044724104549854794,
+          "ctr": 0.1117134559535334,
+          "total_budget": 78607.49,
+          "cpe": 340.29216450216455,
+          "cpm_like": 15219.262342691192
+        },
+        {
+          "campaign_id": 22.0,
+          "clicks": 1092.0,
+          "comment": 101.0,
+          "impressions": 8596.0,
+          "likes": 334.0,
+          "purchase": 52.0,
+          "shares": 44.0,
+          "engagements": 378.0,
+          "engagement_rate": 0.043973941368078175,
+          "ctr": 0.1270358306188925,
+          "total_budget": 35743.4,
+          "cpe": 94.55925925925926,
+          "cpm_like": 4158.143322475571
+        },
+        {
+          "campaign_id": 38.0,
+          "clicks": 1610.0,
+          "comment": 179.0,
+          "impressions": 13550.0,
+          "likes": 498.0,
+          "purchase": 97.0,
+          "shares": 90.0,
+          "engagements": 588.0,
+          "engagement_rate": 0.043394833948339484,
+          "ctr": 0.11881918819188192,
+          "total_budget": 71038.28,
+          "cpe": 120.81340136054422,
+          "cpm_like": 5242.677490774908
+        },
+        {
+          "campaign_id": 7.0,
+          "clicks": 607.0,
+          "comment": 65.0,
+          "impressions": 5048.0,
+          "likes": 185.0,
+          "purchase": 33.0,
+          "shares": 33.0,
+          "engagements": 218.0,
+          "engagement_rate": 0.04318541996830428,
+          "ctr": 0.12024564183835182,
+          "total_budget": 43744.59,
+          "cpe": 200.66325688073394,
+          "cpm_like": 8665.727020602217
+        },
+        {
+          "campaign_id": 23.0,
+          "clicks": 611.0,
+          "comment": 62.0,
+          "impressions": 5066.0,
+          "likes": 183.0,
+          "purchase": 42.0,
+          "shares": 35.0,
+          "engagements": 218.0,
+          "engagement_rate": 0.043031977891827874,
+          "ctr": 0.12060797473351757,
+          "total_budget": 26001.67,
+          "cpe": 119.27371559633026,
+          "cpm_like": 5132.583892617449
+        }
+      ],
+      "top10_by_impressions": [
+        {
+          "campaign_id": 42.0,
+          "clicks": 1621.0,
+          "comment": 160.0,
+          "impressions": 13814.0,
+          "likes": 468.0,
+          "purchase": 67.0,
+          "shares": 76.0,
+          "engagements": 544.0,
+          "engagement_rate": 0.03938033878673809,
+          "ctr": 0.11734472274504126,
+          "total_budget": 7918.04,
+          "cpe": 14.555220588235294,
+          "cpm_like": 573.1895178804111
+        },
+        {
+          "campaign_id": 24.0,
+          "clicks": 1590.0,
+          "comment": 159.0,
+          "impressions": 13756.0,
+          "likes": 458.0,
+          "purchase": 81.0,
+          "shares": 87.0,
+          "engagements": 545.0,
+          "engagement_rate": 0.039619075312590867,
+          "ctr": 0.11558592614132016,
+          "total_budget": 56692.87,
+          "cpe": 104.0236146788991,
+          "cpm_like": 4121.319424251235
+        },
+        {
+          "campaign_id": 20.0,
+          "clicks": 1672.0,
+          "comment": 157.0,
+          "impressions": 13727.0,
+          "likes": 465.0,
+          "purchase": 73.0,
+          "shares": 73.0,
+          "engagements": 538.0,
+          "engagement_rate": 0.039192831645661834,
+          "ctr": 0.12180374444525388,
+          "total_budget": 98904.66,
+          "cpe": 183.83765799256506,
+          "cpm_like": 7205.118379835361
+        },
+        {
+          "campaign_id": 17.0,
+          "clicks": 1668.0,
+          "comment": 180.0,
+          "impressions": 13653.0,
+          "likes": 476.0,
+          "purchase": 91.0,
+          "shares": 91.0,
+          "engagements": 567.0,
+          "engagement_rate": 0.04152933421226104,
+          "ctr": 0.12217095143924413,
+          "total_budget": 86675.92,
+          "cpe": 152.86758377425045,
+          "cpm_like": 6348.488976781659
+        },
+        {
+          "campaign_id": 38.0,
+          "clicks": 1610.0,
+          "comment": 179.0,
+          "impressions": 13550.0,
+          "likes": 498.0,
+          "purchase": 97.0,
+          "shares": 90.0,
+          "engagements": 588.0,
+          "engagement_rate": 0.043394833948339484,
+          "ctr": 0.11881918819188192,
+          "total_budget": 71038.28,
+          "cpe": 120.81340136054422,
+          "cpm_like": 5242.677490774908
+        },
+        {
+          "campaign_id": 33.0,
+          "clicks": 1415.0,
+          "comment": 158.0,
+          "impressions": 12155.0,
+          "likes": 416.0,
+          "purchase": 86.0,
+          "shares": 76.0,
+          "engagements": 492.0,
+          "engagement_rate": 0.04047716988893459,
+          "ctr": 0.11641299876593994,
+          "total_budget": 59264.68,
+          "cpe": 120.45666666666666,
+          "cpm_like": 4875.744960921432
+        },
+        {
+          "campaign_id": 29.0,
+          "clicks": 1438.0,
+          "comment": 139.0,
+          "impressions": 11806.0,
+          "likes": 426.0,
+          "purchase": 60.0,
+          "shares": 59.0,
+          "engagements": 485.0,
+          "engagement_rate": 0.04108080636964256,
+          "ctr": 0.12180247331865153,
+          "total_budget": 19773.66,
+          "cpe": 40.77043298969072,
+          "cpm_like": 1674.8822632559713
+        },
+        {
+          "campaign_id": 9.0,
+          "clicks": 1237.0,
+          "comment": 123.0,
+          "impressions": 10461.0,
+          "likes": 348.0,
+          "purchase": 63.0,
+          "shares": 42.0,
+          "engagements": 390.0,
+          "engagement_rate": 0.03728133065672498,
+          "ctr": 0.11824873339068923,
+          "total_budget": 40094.07,
+          "cpe": 102.8053076923077,
+          "cpm_like": 3832.718669343275
+        },
+        {
+          "campaign_id": 13.0,
+          "clicks": 1226.0,
+          "comment": 133.0,
+          "impressions": 10424.0,
+          "likes": 381.0,
+          "purchase": 65.0,
+          "shares": 62.0,
+          "engagements": 443.0,
+          "engagement_rate": 0.042498081350729085,
+          "ctr": 0.11761320030698388,
+          "total_budget": 21855.42,
+          "cpe": 49.335033860045144,
+          "cpm_like": 2096.6442824251726
+        },
+        {
+          "campaign_id": 47.0,
+          "clicks": 1211.0,
+          "comment": 136.0,
+          "impressions": 10386.0,
+          "likes": 367.0,
+          "purchase": 63.0,
+          "shares": 55.0,
+          "engagements": 422.0,
+          "engagement_rate": 0.040631619487772004,
+          "ctr": 0.11659926824571538,
+          "total_budget": 69493.36,
+          "cpe": 164.6762085308057,
+          "cpm_like": 6691.06104371269
+        }
+      ]
+    },
+    "by_campaign_platform": {
+      "top10_by_engagement_rate": [
+        {
+          "campaign_id": 50,
+          "ad_platform": "Instagram",
+          "clicks": 181,
+          "comment": 13,
+          "impressions": 1728,
+          "likes": 91,
+          "purchase": 8,
+          "shares": 7,
+          "engagements": 98,
+          "engagement_rate": 0.056712962962962965,
+          "ctr": 0.10474537037037036,
+          "total_budget": 47274.7,
+          "cpe": 482.39489795918365,
+          "cpm_like": 27358.043981481478
+        },
+        {
+          "campaign_id": 27,
+          "ad_platform": "Instagram",
+          "clicks": 194,
+          "comment": 22,
+          "impressions": 1691,
+          "likes": 75,
+          "purchase": 18,
+          "shares": 12,
+          "engagements": 87,
+          "engagement_rate": 0.0514488468361916,
+          "ctr": 0.11472501478415138,
+          "total_budget": 12986.3,
+          "cpe": 149.26781609195402,
+          "cpm_like": 7679.657007687759
+        },
+        {
+          "campaign_id": 18,
+          "ad_platform": "Facebook",
+          "clicks": 185,
+          "comment": 22,
+          "impressions": 1679,
+          "likes": 74,
+          "purchase": 8,
+          "shares": 10,
+          "engagements": 84,
+          "engagement_rate": 0.05002977963073258,
+          "ctr": 0.11018463371054199,
+          "total_budget": 48832.61,
+          "cpe": 581.3405952380953,
+          "cpm_like": 29084.34187016081
+        },
+        {
+          "campaign_id": 6,
+          "ad_platform": "Instagram",
+          "clicks": 189,
+          "comment": 21,
+          "impressions": 1721,
+          "likes": 77,
+          "purchase": 7,
+          "shares": 9,
+          "engagements": 86,
+          "engagement_rate": 0.04997094712376525,
+          "ctr": 0.10981987216734457,
+          "total_budget": 78607.49,
+          "cpe": 914.0405813953489,
+          "cpm_like": 45675.47356188262
+        },
+        {
+          "campaign_id": 33,
+          "ad_platform": "Instagram",
+          "clicks": 218,
+          "comment": 19,
+          "impressions": 1674,
+          "likes": 67,
+          "purchase": 12,
+          "shares": 15,
+          "engagements": 82,
+          "engagement_rate": 0.04898446833930705,
+          "ctr": 0.13022700119474312,
+          "total_budget": 59264.68,
+          "cpe": 722.74,
+          "cpm_like": 35403.034647550776
+        },
+        {
+          "campaign_id": 38,
+          "ad_platform": "Instagram",
+          "clicks": 448,
+          "comment": 43,
+          "impressions": 3226,
+          "likes": 135,
+          "purchase": 21,
+          "shares": 20,
+          "engagements": 155,
+          "engagement_rate": 0.048047117172969625,
+          "ctr": 0.138871667699938,
+          "total_budget": 71038.28,
+          "cpe": 458.3114838709677,
+          "cpm_like": 22020.545567265963
+        },
+        {
+          "campaign_id": 5,
+          "ad_platform": "Instagram",
+          "clicks": 588,
+          "comment": 70,
+          "impressions": 5160,
+          "likes": 219,
+          "purchase": 34,
+          "shares": 28,
+          "engagements": 247,
+          "engagement_rate": 0.047868217054263563,
+          "ctr": 0.11395348837209303,
+          "total_budget": 68376.69,
+          "cpe": 276.82870445344133,
+          "cpm_like": 13251.296511627908
+        },
+        {
+          "campaign_id": 22,
+          "ad_platform": "Instagram",
+          "clicks": 220,
+          "comment": 20,
+          "impressions": 1689,
+          "likes": 72,
+          "purchase": 7,
+          "shares": 8,
+          "engagements": 80,
+          "engagement_rate": 0.047365304914150384,
+          "ctr": 0.13025458851391356,
+          "total_budget": 35743.4,
+          "cpe": 446.7925,
+          "cpm_like": 21162.462995855538
+        },
+        {
+          "campaign_id": 1,
+          "ad_platform": "Instagram",
+          "clicks": 190,
+          "comment": 13,
+          "impressions": 1735,
+          "likes": 74,
+          "purchase": 19,
+          "shares": 8,
+          "engagements": 82,
+          "engagement_rate": 0.04726224783861672,
+          "ctr": 0.10951008645533142,
+          "total_budget": 24021.32,
+          "cpe": 292.9429268292683,
+          "cpm_like": 13845.14121037464
+        },
+        {
+          "campaign_id": 31,
+          "ad_platform": "Facebook",
+          "clicks": 194,
+          "comment": 21,
+          "impressions": 1653,
+          "likes": 65,
+          "purchase": 13,
+          "shares": 13,
+          "engagements": 78,
+          "engagement_rate": 0.047186932849364795,
+          "ctr": 0.11736237144585603,
+          "total_budget": 72208.34,
+          "cpe": 925.7479487179487,
+          "cpm_like": 43683.20629159104
+        }
+      ],
+      "bottom10_by_engagement_rate": [
+        {
+          "campaign_id": 37,
+          "ad_platform": "Instagram",
+          "clicks": 204,
+          "comment": 20,
+          "impressions": 1718,
+          "likes": 48,
+          "purchase": 6,
+          "shares": 7,
+          "engagements": 55,
+          "engagement_rate": 0.0320139697322468,
+          "ctr": 0.11874272409778813,
+          "total_budget": 46445.2,
+          "cpe": 844.4581818181817,
+          "cpm_like": 27034.458672875433
+        },
+        {
+          "campaign_id": 35,
+          "ad_platform": "Facebook",
+          "clicks": 199,
+          "comment": 22,
+          "impressions": 1698,
+          "likes": 47,
+          "purchase": 11,
+          "shares": 9,
+          "engagements": 56,
+          "engagement_rate": 0.03297997644287397,
+          "ctr": 0.11719670200235571,
+          "total_budget": 71626.83,
+          "cpe": 1279.0505357142858,
+          "cpm_like": 42183.05653710247
+        },
+        {
+          "campaign_id": 41,
+          "ad_platform": "Facebook",
+          "clicks": 397,
+          "comment": 43,
+          "impressions": 3540,
+          "likes": 103,
+          "purchase": 28,
+          "shares": 16,
+          "engagements": 119,
+          "engagement_rate": 0.03361581920903955,
+          "ctr": 0.11214689265536723,
+          "total_budget": 85220.35,
+          "cpe": 716.1373949579832,
+          "cpm_like": 24073.545197740114
+        },
+        {
+          "campaign_id": 39,
+          "ad_platform": "Instagram",
+          "clicks": 219,
+          "comment": 18,
+          "impressions": 1765,
+          "likes": 52,
+          "purchase": 10,
+          "shares": 8,
+          "engagements": 60,
+          "engagement_rate": 0.0339943342776204,
+          "ctr": 0.12407932011331445,
+          "total_budget": 55638.18,
+          "cpe": 927.303,
+          "cpm_like": 31523.048158640224
+        },
+        {
+          "campaign_id": 46,
+          "ad_platform": "Instagram",
+          "clicks": 191,
+          "comment": 24,
+          "impressions": 1722,
+          "likes": 49,
+          "purchase": 6,
+          "shares": 10,
+          "engagements": 59,
+          "engagement_rate": 0.03426248548199768,
+          "ctr": 0.11091753774680604,
+          "total_budget": 94023.76,
+          "cpe": 1593.6230508474575,
+          "cpm_like": 54601.48664343786
+        },
+        {
+          "campaign_id": 2,
+          "ad_platform": "Facebook",
+          "clicks": 403,
+          "comment": 45,
+          "impressions": 3573,
+          "likes": 110,
+          "purchase": 23,
+          "shares": 17,
+          "engagements": 127,
+          "engagement_rate": 0.03554436048138819,
+          "ctr": 0.11279037223621606,
+          "total_budget": 79342.41,
+          "cpe": 624.7433858267717,
+          "cpm_like": 22206.104114189755
+        },
+        {
+          "campaign_id": 32,
+          "ad_platform": "Facebook",
+          "clicks": 217,
+          "comment": 18,
+          "impressions": 1731,
+          "likes": 54,
+          "purchase": 2,
+          "shares": 9,
+          "engagements": 63,
+          "engagement_rate": 0.036395147313691506,
+          "ctr": 0.12536106296938185,
+          "total_budget": 81744.53,
+          "cpe": 1297.5322222222221,
+          "cpm_like": 47223.87637203929
+        },
+        {
+          "campaign_id": 48,
+          "ad_platform": "Facebook",
+          "clicks": 196,
+          "comment": 22,
+          "impressions": 1689,
+          "likes": 53,
+          "purchase": 10,
+          "shares": 9,
+          "engagements": 62,
+          "engagement_rate": 0.036708111308466546,
+          "ctr": 0.11604499703966845,
+          "total_budget": 13842.07,
+          "cpe": 223.2591935483871,
+          "cpm_like": 8195.42332741267
+        },
+        {
+          "campaign_id": 21,
+          "ad_platform": "Instagram",
+          "clicks": 217,
+          "comment": 25,
+          "impressions": 1711,
+          "likes": 54,
+          "purchase": 14,
+          "shares": 9,
+          "engagements": 63,
+          "engagement_rate": 0.03682057276446522,
+          "ctr": 0.12682641729982466,
+          "total_budget": 37290.81,
+          "cpe": 591.917619047619,
+          "cpm_like": 21794.745762711864
+        },
+        {
+          "campaign_id": 28,
+          "ad_platform": "Facebook",
+          "clicks": 612,
+          "comment": 76,
+          "impressions": 5193,
+          "likes": 163,
+          "purchase": 30,
+          "shares": 29,
+          "engagements": 192,
+          "engagement_rate": 0.03697284806470248,
+          "ctr": 0.11785095320623917,
+          "total_budget": 32844.79,
+          "cpe": 171.06661458333335,
+          "cpm_like": 6324.819949932602
+        }
+      ]
+    }
+  },
+  "top_bottom": {
+    "campaign_engagement_rate": {
+      "top": [
+        {
+          "campaign_id": 50.0,
+          "engagement_rate": 0.056712962962962965
+        },
+        {
+          "campaign_id": 5.0,
+          "engagement_rate": 0.047868217054263563
+        },
+        {
+          "campaign_id": 40.0,
+          "engagement_rate": 0.04577099688934973
+        },
+        {
+          "campaign_id": 27.0,
+          "engagement_rate": 0.045305514157973174
+        },
+        {
+          "campaign_id": 26.0,
+          "engagement_rate": 0.044804943993820005
+        },
+        {
+          "campaign_id": 6.0,
+          "engagement_rate": 0.044724104549854794
+        },
+        {
+          "campaign_id": 22.0,
+          "engagement_rate": 0.043973941368078175
+        },
+        {
+          "campaign_id": 38.0,
+          "engagement_rate": 0.043394833948339484
+        },
+        {
+          "campaign_id": 7.0,
+          "engagement_rate": 0.04318541996830428
+        },
+        {
+          "campaign_id": 23.0,
+          "engagement_rate": 0.043031977891827874
+        }
+      ],
+      "bottom": [
+        {
+          "campaign_id": 35.0,
+          "engagement_rate": 0.03297997644287397
+        },
+        {
+          "campaign_id": 41.0,
+          "engagement_rate": 0.03637756078881869
+        },
+        {
+          "campaign_id": 28.0,
+          "engagement_rate": 0.03697284806470248
+        },
+        {
+          "campaign_id": 9.0,
+          "engagement_rate": 0.03728133065672498
+        },
+        {
+          "campaign_id": 2.0,
+          "engagement_rate": 0.037867370007535796
+        },
+        {
+          "campaign_id": 45.0,
+          "engagement_rate": 0.0385642242657965
+        },
+        {
+          "campaign_id": 36.0,
+          "engagement_rate": 0.03877314814814815
+        },
+        {
+          "campaign_id": 19.0,
+          "engagement_rate": 0.038877521192633734
+        },
+        {
+          "campaign_id": 32.0,
+          "engagement_rate": 0.03913167666381034
+        },
+        {
+          "campaign_id": 20.0,
+          "engagement_rate": 0.039192831645661834
+        }
+      ]
+    },
+    "campaign_impressions": {
+      "top": [
+        {
+          "campaign_id": 42.0,
+          "impressions": 13814.0
+        },
+        {
+          "campaign_id": 24.0,
+          "impressions": 13756.0
+        },
+        {
+          "campaign_id": 20.0,
+          "impressions": 13727.0
+        },
+        {
+          "campaign_id": 17.0,
+          "impressions": 13653.0
+        },
+        {
+          "campaign_id": 38.0,
+          "impressions": 13550.0
+        },
+        {
+          "campaign_id": 33.0,
+          "impressions": 12155.0
+        },
+        {
+          "campaign_id": 29.0,
+          "impressions": 11806.0
+        },
+        {
+          "campaign_id": 9.0,
+          "impressions": 10461.0
+        },
+        {
+          "campaign_id": 13.0,
+          "impressions": 10424.0
+        },
+        {
+          "campaign_id": 47.0,
+          "impressions": 10386.0
+        }
+      ],
+      "bottom": [
+        {
+          "campaign_id": 35.0,
+          "impressions": 1698.0
+        },
+        {
+          "campaign_id": 50.0,
+          "impressions": 1728.0
+        },
+        {
+          "campaign_id": 14.0,
+          "impressions": 3346.0
+        },
+        {
+          "campaign_id": 27.0,
+          "impressions": 3355.0
+        },
+        {
+          "campaign_id": 45.0,
+          "impressions": 3371.0
+        },
+        {
+          "campaign_id": 48.0,
+          "impressions": 3402.0
+        },
+        {
+          "campaign_id": 19.0,
+          "impressions": 3421.0
+        },
+        {
+          "campaign_id": 12.0,
+          "impressions": 3442.0
+        },
+        {
+          "campaign_id": 49.0,
+          "impressions": 3455.0
+        },
+        {
+          "campaign_id": 36.0,
+          "impressions": 3456.0
+        }
+      ]
+    },
+    "platform_engagement_rate": {
+      "top": [
+        {
+          "ad_platform": "Instagram",
+          "engagement_rate": 0.04192942492906526
+        },
+        {
+          "ad_platform": "Facebook",
+          "engagement_rate": 0.04071233982443749
+        }
+      ],
+      "bottom": [
+        {
+          "ad_platform": "Facebook",
+          "engagement_rate": 0.04071233982443749
+        },
+        {
+          "ad_platform": "Instagram",
+          "engagement_rate": 0.04192942492906526
+        }
+      ]
+    }
+  },
+  "outliers": {
+    "engagement_rate_outliers": [
+      {
+        "campaign_id": 50,
+        "ad_platform": "Instagram",
+        "engagement_rate": 0.056712962962962965,
+        "engagement_rate_z": 3.585539501281921
+      }
+    ],
+    "ctr_outliers": [
+      {
+        "campaign_id": 38,
+        "ad_platform": "Instagram",
+        "ctr": 0.138871667699938,
+        "ctr_z": 3.2772782272596954
+      }
+    ]
+  },
+  "rule_based_insights": [
+    {
+      "type": "platform_engagement",
+      "message": "Top platform by engagement rate: Instagram (eng_rate=0.0419). Lowest: Facebook (eng_rate=0.0407)."
+    }
+  ]
+}

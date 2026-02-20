@@ -1,0 +1,1177 @@
+{
+  "dataset": "marketing_campaign_dataset",
+  "overall_kpis": {
+    "n_rows": 200000,
+    "n_campaigns": 200000,
+    "clicks_total": 109954406.0,
+    "impressions_total": 1101460304.0,
+    "ctr_mean": 0.140405,
+    "roi_mean": 5.0024,
+    "conversion_rate_mean": 0.08007,
+    "acquisition_cost_mean": 12504.393
+  },
+  "top_bottom": {
+    "ROI": {
+      "top": [
+        {
+          "Campaign_ID": 65641,
+          "ROI": 8.0,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 143791,
+          "ROI": 8.0,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 143504,
+          "ROI": 8.0,
+          "Company": "Innovate Industries",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 121640,
+          "ROI": 8.0,
+          "Company": "TechCorp",
+          "Channel_Used": "Google Ads",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 120918,
+          "ROI": 8.0,
+          "Company": "TechCorp",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 73365,
+          "ROI": 8.0,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 48871,
+          "ROI": 8.0,
+          "Company": "TechCorp",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 42869,
+          "ROI": 8.0,
+          "Company": "DataTech Solutions",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 43000,
+          "ROI": 8.0,
+          "Company": "NexGen Systems",
+          "Channel_Used": "Google Ads",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 83446,
+          "ROI": 8.0,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Women 35-44"
+        }
+      ],
+      "bottom": [
+        {
+          "Campaign_ID": 158657,
+          "ROI": 2.0,
+          "Company": "TechCorp",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 19663,
+          "ROI": 2.0,
+          "Company": "TechCorp",
+          "Channel_Used": "Instagram",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 104138,
+          "ROI": 2.0,
+          "Company": "NexGen Systems",
+          "Channel_Used": "Instagram",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 57348,
+          "ROI": 2.0,
+          "Company": "TechCorp",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 41739,
+          "ROI": 2.0,
+          "Company": "TechCorp",
+          "Channel_Used": "Google Ads",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 100278,
+          "ROI": 2.0,
+          "Company": "DataTech Solutions",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 100263,
+          "ROI": 2.0,
+          "Company": "DataTech Solutions",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 93778,
+          "ROI": 2.0,
+          "Company": "TechCorp",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 144206,
+          "ROI": 2.0,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 59882,
+          "ROI": 2.0,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "All Ages"
+        }
+      ]
+    },
+    "CTR": {
+      "top": [
+        {
+          "Campaign_ID": 122375,
+          "CTR": 0.9920239282153539,
+          "Company": "TechCorp",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 26330,
+          "CTR": 0.992,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 133972,
+          "CTR": 0.9900497512437811,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 121860,
+          "CTR": 0.99000999000999,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Google Ads",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 171192,
+          "CTR": 0.9840478564307079,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 65535,
+          "CTR": 0.983218163869694,
+          "Company": "DataTech Solutions",
+          "Channel_Used": "Instagram",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 77443,
+          "CTR": 0.9812807881773399,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Instagram",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 173975,
+          "CTR": 0.9721946375372393,
+          "Company": "NexGen Systems",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 67651,
+          "CTR": 0.9704724409448819,
+          "Company": "DataTech Solutions",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 14262,
+          "CTR": 0.9699029126213592,
+          "Company": "TechCorp",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Men 25-34"
+        }
+      ],
+      "bottom": [
+        {
+          "Campaign_ID": 44685,
+          "CTR": 0.010054293183189221,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 54817,
+          "CTR": 0.010065425264217413,
+          "Company": "DataTech Solutions",
+          "Channel_Used": "Instagram",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 98768,
+          "CTR": 0.010065425264217413,
+          "Company": "TechCorp",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 101096,
+          "CTR": 0.010083694665725522,
+          "Company": "TechCorp",
+          "Channel_Used": "Instagram",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 198025,
+          "CTR": 0.010087763542822556,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 98688,
+          "CTR": 0.010096930533117932,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 36368,
+          "CTR": 0.010120433154539015,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Instagram",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 142291,
+          "CTR": 0.01013649136892814,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Google Ads",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 19017,
+          "CTR": 0.01017632241813602,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 111649,
+          "CTR": 0.010192640913260626,
+          "Company": "TechCorp",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 25-34"
+        }
+      ]
+    },
+    "Conversion_Rate": {
+      "top": [
+        {
+          "Campaign_ID": 130053,
+          "Conversion_Rate": 0.15,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 76340,
+          "Conversion_Rate": 0.15,
+          "Company": "NexGen Systems",
+          "Channel_Used": "Google Ads",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 176437,
+          "Conversion_Rate": 0.15,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 135866,
+          "Conversion_Rate": 0.15,
+          "Company": "TechCorp",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 109374,
+          "Conversion_Rate": 0.15,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 50078,
+          "Conversion_Rate": 0.15,
+          "Company": "NexGen Systems",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 196438,
+          "Conversion_Rate": 0.15,
+          "Company": "DataTech Solutions",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 52139,
+          "Conversion_Rate": 0.15,
+          "Company": "TechCorp",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 196448,
+          "Conversion_Rate": 0.15,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "All Ages"
+        },
+        {
+          "Campaign_ID": 78131,
+          "Conversion_Rate": 0.15,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Women 35-44"
+        }
+      ],
+      "bottom": [
+        {
+          "Campaign_ID": 63,
+          "Conversion_Rate": 0.01,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 164410,
+          "Conversion_Rate": 0.01,
+          "Company": "Alpha Innovations",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 164406,
+          "Conversion_Rate": 0.01,
+          "Company": "DataTech Solutions",
+          "Channel_Used": "Facebook",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 199984,
+          "Conversion_Rate": 0.01,
+          "Company": "TechCorp",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 200000,
+          "Conversion_Rate": 0.01,
+          "Company": "Innovate Industries",
+          "Channel_Used": "Google Ads",
+          "Customer_Segment": "Tech Enthusiasts",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 199978,
+          "Conversion_Rate": 0.01,
+          "Company": "TechCorp",
+          "Channel_Used": "Email",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "Men 25-34"
+        },
+        {
+          "Campaign_ID": 152870,
+          "Conversion_Rate": 0.01,
+          "Company": "TechCorp",
+          "Channel_Used": "Instagram",
+          "Customer_Segment": "Health & Wellness",
+          "Target_Audience": "Women 25-34"
+        },
+        {
+          "Campaign_ID": 21479,
+          "Conversion_Rate": 0.01,
+          "Company": "TechCorp",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Foodies",
+          "Target_Audience": "Women 35-44"
+        },
+        {
+          "Campaign_ID": 21476,
+          "Conversion_Rate": 0.01,
+          "Company": "TechCorp",
+          "Channel_Used": "Website",
+          "Customer_Segment": "Outdoor Adventurers",
+          "Target_Audience": "Men 18-24"
+        },
+        {
+          "Campaign_ID": 83796,
+          "Conversion_Rate": 0.01,
+          "Company": "NexGen Systems",
+          "Channel_Used": "YouTube",
+          "Customer_Segment": "Fashionistas",
+          "Target_Audience": "Men 25-34"
+        }
+      ]
+    }
+  },
+  "group_summaries": {
+    "Channel_Used": {
+      "summary_top10": [
+        {
+          "Channel_Used": "Facebook",
+          "Clicks": 18037947.0,
+          "Impressions": 180659428.0,
+          "CTR": 0.14049925956978432,
+          "ROI": 5.018698619702002,
+          "Conversion_Rate": 0.0799917730582894,
+          "Acquisition_Cost": 12510.900941527774,
+          "Engagement_Score": 5.503702123769767,
+          "impressions_share": 0.164018101554752
+        },
+        {
+          "Channel_Used": "Website",
+          "Clicks": 18414628.0,
+          "Impressions": 183806353.0,
+          "CTR": 0.14097136273248603,
+          "ROI": 5.014166666666667,
+          "Conversion_Rate": 0.08018285371702638,
+          "Acquisition_Cost": 12487.81474820144,
+          "Engagement_Score": 5.5089028776978415,
+          "impressions_share": 0.16687514959231795
+        },
+        {
+          "Channel_Used": "Google Ads",
+          "Clicks": 18340807.0,
+          "Impressions": 185006879.0,
+          "CTR": 0.13918967366399929,
+          "ROI": 5.003141336204319,
+          "Conversion_Rate": 0.08018332436150488,
+          "Acquisition_Cost": 12528.031401399605,
+          "Engagement_Score": 5.494048687122436,
+          "impressions_share": 0.16796508991575967
+        },
+        {
+          "Channel_Used": "Email",
+          "Clicks": 18493963.0,
+          "Impressions": 184801107.0,
+          "CTR": 0.14054268926840013,
+          "ROI": 4.996486502574482,
+          "Conversion_Rate": 0.08028155599869044,
+          "Acquisition_Cost": 12526.387809160988,
+          "Engagement_Score": 5.48784190005655,
+          "impressions_share": 0.1677782724705438
+        },
+        {
+          "Channel_Used": "YouTube",
+          "Clicks": 18350407.0,
+          "Impressions": 183448082.0,
+          "CTR": 0.14119605311928385,
+          "ROI": 4.993754192620987,
+          "Conversion_Rate": 0.07988919501677048,
+          "Acquisition_Cost": 12481.390213224724,
+          "Engagement_Score": 5.484936511739339,
+          "impressions_share": 0.1665498804939229
+        },
+        {
+          "Channel_Used": "Instagram",
+          "Clicks": 18316654.0,
+          "Impressions": 183738455.0,
+          "CTR": 0.1400369093120031,
+          "ROI": 4.988705977479635,
+          "Conversion_Rate": 0.07988649976042166,
+          "Acquisition_Cost": 12491.760002395784,
+          "Engagement_Score": 5.489039290848107,
+          "impressions_share": 0.16681350597270367
+        }
+      ],
+      "summary_bottom10": [
+        {
+          "Channel_Used": "Facebook",
+          "Clicks": 18037947.0,
+          "Impressions": 180659428.0,
+          "CTR": 0.14049925956978432,
+          "ROI": 5.018698619702002,
+          "Conversion_Rate": 0.0799917730582894,
+          "Acquisition_Cost": 12510.900941527774,
+          "Engagement_Score": 5.503702123769767,
+          "impressions_share": 0.164018101554752
+        },
+        {
+          "Channel_Used": "Website",
+          "Clicks": 18414628.0,
+          "Impressions": 183806353.0,
+          "CTR": 0.14097136273248603,
+          "ROI": 5.014166666666667,
+          "Conversion_Rate": 0.08018285371702638,
+          "Acquisition_Cost": 12487.81474820144,
+          "Engagement_Score": 5.5089028776978415,
+          "impressions_share": 0.16687514959231795
+        },
+        {
+          "Channel_Used": "Google Ads",
+          "Clicks": 18340807.0,
+          "Impressions": 185006879.0,
+          "CTR": 0.13918967366399929,
+          "ROI": 5.003141336204319,
+          "Conversion_Rate": 0.08018332436150488,
+          "Acquisition_Cost": 12528.031401399605,
+          "Engagement_Score": 5.494048687122436,
+          "impressions_share": 0.16796508991575967
+        },
+        {
+          "Channel_Used": "Email",
+          "Clicks": 18493963.0,
+          "Impressions": 184801107.0,
+          "CTR": 0.14054268926840013,
+          "ROI": 4.996486502574482,
+          "Conversion_Rate": 0.08028155599869044,
+          "Acquisition_Cost": 12526.387809160988,
+          "Engagement_Score": 5.48784190005655,
+          "impressions_share": 0.1677782724705438
+        },
+        {
+          "Channel_Used": "YouTube",
+          "Clicks": 18350407.0,
+          "Impressions": 183448082.0,
+          "CTR": 0.14119605311928385,
+          "ROI": 4.993754192620987,
+          "Conversion_Rate": 0.07988919501677048,
+          "Acquisition_Cost": 12481.390213224724,
+          "Engagement_Score": 5.484936511739339,
+          "impressions_share": 0.1665498804939229
+        },
+        {
+          "Channel_Used": "Instagram",
+          "Clicks": 18316654.0,
+          "Impressions": 183738455.0,
+          "CTR": 0.1400369093120031,
+          "ROI": 4.988705977479635,
+          "Conversion_Rate": 0.07988649976042166,
+          "Acquisition_Cost": 12491.760002395784,
+          "Engagement_Score": 5.489039290848107,
+          "impressions_share": 0.16681350597270367
+        }
+      ]
+    },
+    "Company": {
+      "summary_top10": [
+        {
+          "Company": "TechCorp",
+          "Clicks": 22166485.0,
+          "Impressions": 221505557.0,
+          "CTR": 0.14092792344144883,
+          "ROI": 5.007143176678182,
+          "Conversion_Rate": 0.08015682083654348,
+          "Acquisition_Cost": 12509.263811914407,
+          "Engagement_Score": 5.475283942639859,
+          "impressions_share": 0.20110171578185174
+        },
+        {
+          "Company": "Alpha Innovations",
+          "Clicks": 21983300.0,
+          "Impressions": 220640249.0,
+          "CTR": 0.14027515444600397,
+          "ROI": 5.005943671818431,
+          "Conversion_Rate": 0.08008389303637863,
+          "Acquisition_Cost": 12513.59569049462,
+          "Engagement_Score": 5.497041272377718,
+          "impressions_share": 0.20031611506900027
+        },
+        {
+          "Company": "DataTech Solutions",
+          "Clicks": 22041615.0,
+          "Impressions": 220252334.0,
+          "CTR": 0.14075540751410018,
+          "ROI": 5.0055370888733375,
+          "Conversion_Rate": 0.07998875337398781,
+          "Acquisition_Cost": 12503.275617314806,
+          "Engagement_Score": 5.501424572628212,
+          "impressions_share": 0.1999639326085055
+        },
+        {
+          "Company": "Innovate Industries",
+          "Clicks": 21805668.0,
+          "Impressions": 218725247.0,
+          "CTR": 0.14031067166093858,
+          "ROI": 5.002175073660883,
+          "Conversion_Rate": 0.08038429575159284,
+          "Acquisition_Cost": 12500.535621647485,
+          "Engagement_Score": 5.507920118864741,
+          "impressions_share": 0.19857751224051376
+        },
+        {
+          "Company": "NexGen Systems",
+          "Clicks": 21957338.0,
+          "Impressions": 220336917.0,
+          "CTR": 0.1397544491040218,
+          "ROI": 4.991352554324723,
+          "Conversion_Rate": 0.07973619064289465,
+          "Acquisition_Cost": 12495.224075416969,
+          "Engagement_Score": 5.492085719286839,
+          "impressions_share": 0.20004072430012876
+        }
+      ],
+      "summary_bottom10": [
+        {
+          "Company": "TechCorp",
+          "Clicks": 22166485.0,
+          "Impressions": 221505557.0,
+          "CTR": 0.14092792344144883,
+          "ROI": 5.007143176678182,
+          "Conversion_Rate": 0.08015682083654348,
+          "Acquisition_Cost": 12509.263811914407,
+          "Engagement_Score": 5.475283942639859,
+          "impressions_share": 0.20110171578185174
+        },
+        {
+          "Company": "Alpha Innovations",
+          "Clicks": 21983300.0,
+          "Impressions": 220640249.0,
+          "CTR": 0.14027515444600397,
+          "ROI": 5.005943671818431,
+          "Conversion_Rate": 0.08008389303637863,
+          "Acquisition_Cost": 12513.59569049462,
+          "Engagement_Score": 5.497041272377718,
+          "impressions_share": 0.20031611506900027
+        },
+        {
+          "Company": "DataTech Solutions",
+          "Clicks": 22041615.0,
+          "Impressions": 220252334.0,
+          "CTR": 0.14075540751410018,
+          "ROI": 5.0055370888733375,
+          "Conversion_Rate": 0.07998875337398781,
+          "Acquisition_Cost": 12503.275617314806,
+          "Engagement_Score": 5.501424572628212,
+          "impressions_share": 0.1999639326085055
+        },
+        {
+          "Company": "Innovate Industries",
+          "Clicks": 21805668.0,
+          "Impressions": 218725247.0,
+          "CTR": 0.14031067166093858,
+          "ROI": 5.002175073660883,
+          "Conversion_Rate": 0.08038429575159284,
+          "Acquisition_Cost": 12500.535621647485,
+          "Engagement_Score": 5.507920118864741,
+          "impressions_share": 0.19857751224051376
+        },
+        {
+          "Company": "NexGen Systems",
+          "Clicks": 21957338.0,
+          "Impressions": 220336917.0,
+          "CTR": 0.1397544491040218,
+          "ROI": 4.991352554324723,
+          "Conversion_Rate": 0.07973619064289465,
+          "Acquisition_Cost": 12495.224075416969,
+          "Engagement_Score": 5.492085719286839,
+          "impressions_share": 0.20004072430012876
+        }
+      ]
+    },
+    "Customer_Segment": {
+      "summary_top10": [
+        {
+          "Customer_Segment": "Foodies",
+          "Clicks": 22080774.0,
+          "Impressions": 220815116.0,
+          "CTR": 0.14141300774521687,
+          "ROI": 5.004375746120175,
+          "Conversion_Rate": 0.0802574114604059,
+          "Acquisition_Cost": 12524.558147632311,
+          "Engagement_Score": 5.511465380023876,
+          "impressions_share": 0.20047487430831643
+        },
+        {
+          "Customer_Segment": "Tech Enthusiasts",
+          "Clicks": 22035992.0,
+          "Impressions": 220385244.0,
+          "CTR": 0.14112726346139579,
+          "ROI": 5.004233518467784,
+          "Conversion_Rate": 0.0801676172449005,
+          "Acquisition_Cost": 12480.392991457249,
+          "Engagement_Score": 5.485168488954198,
+          "impressions_share": 0.20008459968975878
+        },
+        {
+          "Customer_Segment": "Health & Wellness",
+          "Clicks": 21953923.0,
+          "Impressions": 220457458.0,
+          "CTR": 0.1398569551608336,
+          "ROI": 5.003201714801444,
+          "Conversion_Rate": 0.07994509626955475,
+          "Acquisition_Cost": 12504.418346369835,
+          "Engagement_Score": 5.484155635780184,
+          "impressions_share": 0.20015016174382258
+        },
+        {
+          "Customer_Segment": "Fashionistas",
+          "Clicks": 21855164.0,
+          "Impressions": 219253627.0,
+          "CTR": 0.1399528448688345,
+          "ROI": 5.000961702984249,
+          "Conversion_Rate": 0.07979417241205777,
+          "Acquisition_Cost": 12503.44557395199,
+          "Engagement_Score": 5.489909918977404,
+          "impressions_share": 0.19905722085831973
+        },
+        {
+          "Customer_Segment": "Outdoor Adventurers",
+          "Clicks": 22028553.0,
+          "Impressions": 220548859.0,
+          "CTR": 0.13966518977023995,
+          "ROI": 4.999393166879108,
+          "Conversion_Rate": 0.08018045037614656,
+          "Acquisition_Cost": 12509.128539651596,
+          "Engagement_Score": 5.502736747394467,
+          "impressions_share": 0.2002331433997825
+        }
+      ],
+      "summary_bottom10": [
+        {
+          "Customer_Segment": "Foodies",
+          "Clicks": 22080774.0,
+          "Impressions": 220815116.0,
+          "CTR": 0.14141300774521687,
+          "ROI": 5.004375746120175,
+          "Conversion_Rate": 0.0802574114604059,
+          "Acquisition_Cost": 12524.558147632311,
+          "Engagement_Score": 5.511465380023876,
+          "impressions_share": 0.20047487430831643
+        },
+        {
+          "Customer_Segment": "Tech Enthusiasts",
+          "Clicks": 22035992.0,
+          "Impressions": 220385244.0,
+          "CTR": 0.14112726346139579,
+          "ROI": 5.004233518467784,
+          "Conversion_Rate": 0.0801676172449005,
+          "Acquisition_Cost": 12480.392991457249,
+          "Engagement_Score": 5.485168488954198,
+          "impressions_share": 0.20008459968975878
+        },
+        {
+          "Customer_Segment": "Health & Wellness",
+          "Clicks": 21953923.0,
+          "Impressions": 220457458.0,
+          "CTR": 0.1398569551608336,
+          "ROI": 5.003201714801444,
+          "Conversion_Rate": 0.07994509626955475,
+          "Acquisition_Cost": 12504.418346369835,
+          "Engagement_Score": 5.484155635780184,
+          "impressions_share": 0.20015016174382258
+        },
+        {
+          "Customer_Segment": "Fashionistas",
+          "Clicks": 21855164.0,
+          "Impressions": 219253627.0,
+          "CTR": 0.1399528448688345,
+          "ROI": 5.000961702984249,
+          "Conversion_Rate": 0.07979417241205777,
+          "Acquisition_Cost": 12503.44557395199,
+          "Engagement_Score": 5.489909918977404,
+          "impressions_share": 0.19905722085831973
+        },
+        {
+          "Customer_Segment": "Outdoor Adventurers",
+          "Clicks": 22028553.0,
+          "Impressions": 220548859.0,
+          "CTR": 0.13966518977023995,
+          "ROI": 4.999393166879108,
+          "Conversion_Rate": 0.08018045037614656,
+          "Acquisition_Cost": 12509.128539651596,
+          "Engagement_Score": 5.502736747394467,
+          "impressions_share": 0.2002331433997825
+        }
+      ]
+    },
+    "Target_Audience": {
+      "summary_top10": [
+        {
+          "Target_Audience": "Men 25-34",
+          "Clicks": 22014338.0,
+          "Impressions": 220388856.0,
+          "CTR": 0.14013419828290358,
+          "ROI": 5.020627139394848,
+          "Conversion_Rate": 0.08013167428728482,
+          "Acquisition_Cost": 12480.61834445194,
+          "Engagement_Score": 5.491942133273368,
+          "impressions_share": 0.2000878789727133
+        },
+        {
+          "Target_Audience": "Women 35-44",
+          "Clicks": 21826318.0,
+          "Impressions": 219042735.0,
+          "CTR": 0.1405789006539533,
+          "ROI": 5.006330284476025,
+          "Conversion_Rate": 0.08010204852974526,
+          "Acquisition_Cost": 12515.623856678509,
+          "Engagement_Score": 5.486506916622572,
+          "impressions_share": 0.19886575503859466
+        },
+        {
+          "Target_Audience": "All Ages",
+          "Clicks": 21965301.0,
+          "Impressions": 220352342.0,
+          "CTR": 0.13980181270553535,
+          "ROI": 5.005174042329894,
+          "Conversion_Rate": 0.07997476198805568,
+          "Acquisition_Cost": 12501.914915415178,
+          "Engagement_Score": 5.4870936305255,
+          "impressions_share": 0.20005472843622332
+        },
+        {
+          "Target_Audience": "Women 25-34",
+          "Clicks": 22051647.0,
+          "Impressions": 220449734.0,
+          "CTR": 0.14103079234835994,
+          "ROI": 4.997351110888961,
+          "Conversion_Rate": 0.07989903281433534,
+          "Acquisition_Cost": 12500.490940444355,
+          "Engagement_Score": 5.492739859545647,
+          "impressions_share": 0.20014314923509036
+        },
+        {
+          "Target_Audience": "Men 18-24",
+          "Clicks": 22096802.0,
+          "Impressions": 221226637.0,
+          "CTR": 0.14048287003229085,
+          "ROI": 4.982853345918824,
+          "Conversion_Rate": 0.08023995230761588,
+          "Acquisition_Cost": 12523.299195191017,
+          "Engagement_Score": 5.515077748522033,
+          "impressions_share": 0.20084848831737834
+        }
+      ],
+      "summary_bottom10": [
+        {
+          "Target_Audience": "Men 25-34",
+          "Clicks": 22014338.0,
+          "Impressions": 220388856.0,
+          "CTR": 0.14013419828290358,
+          "ROI": 5.020627139394848,
+          "Conversion_Rate": 0.08013167428728482,
+          "Acquisition_Cost": 12480.61834445194,
+          "Engagement_Score": 5.491942133273368,
+          "impressions_share": 0.2000878789727133
+        },
+        {
+          "Target_Audience": "Women 35-44",
+          "Clicks": 21826318.0,
+          "Impressions": 219042735.0,
+          "CTR": 0.1405789006539533,
+          "ROI": 5.006330284476025,
+          "Conversion_Rate": 0.08010204852974526,
+          "Acquisition_Cost": 12515.623856678509,
+          "Engagement_Score": 5.486506916622572,
+          "impressions_share": 0.19886575503859466
+        },
+        {
+          "Target_Audience": "All Ages",
+          "Clicks": 21965301.0,
+          "Impressions": 220352342.0,
+          "CTR": 0.13980181270553535,
+          "ROI": 5.005174042329894,
+          "Conversion_Rate": 0.07997476198805568,
+          "Acquisition_Cost": 12501.914915415178,
+          "Engagement_Score": 5.4870936305255,
+          "impressions_share": 0.20005472843622332
+        },
+        {
+          "Target_Audience": "Women 25-34",
+          "Clicks": 22051647.0,
+          "Impressions": 220449734.0,
+          "CTR": 0.14103079234835994,
+          "ROI": 4.997351110888961,
+          "Conversion_Rate": 0.07989903281433534,
+          "Acquisition_Cost": 12500.490940444355,
+          "Engagement_Score": 5.492739859545647,
+          "impressions_share": 0.20014314923509036
+        },
+        {
+          "Target_Audience": "Men 18-24",
+          "Clicks": 22096802.0,
+          "Impressions": 221226637.0,
+          "CTR": 0.14048287003229085,
+          "ROI": 4.982853345918824,
+          "Conversion_Rate": 0.08023995230761588,
+          "Acquisition_Cost": 12523.299195191017,
+          "Engagement_Score": 5.515077748522033,
+          "impressions_share": 0.20084848831737834
+        }
+      ]
+    }
+  },
+  "outliers": {
+    "ROI_outliers": [],
+    "CTR_outliers": [
+      {
+        "Campaign_ID": 122375,
+        "ROI": 6.88,
+        "CTR": 0.9920239282153539,
+        "Company": "TechCorp",
+        "Channel_Used": "Facebook",
+        "ROI_z": 1.0824903211316808,
+        "ROI_outlier": false,
+        "CTR_z": 6.506820150909917,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 26330,
+        "ROI": 3.24,
+        "CTR": 0.992,
+        "Company": "Alpha Innovations",
+        "Channel_Used": "Facebook",
+        "ROI_z": -1.0161165180183933,
+        "ROI_outlier": false,
+        "CTR_z": 6.506637326551226,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 133972,
+        "ROI": 3.03,
+        "CTR": 0.9900497512437811,
+        "Company": "Innovate Industries",
+        "Channel_Used": "Website",
+        "ROI_z": -1.137189989507821,
+        "ROI_outlier": false,
+        "CTR_z": 6.4917363833397035,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 121860,
+        "ROI": 2.05,
+        "CTR": 0.99000999000999,
+        "Company": "Alpha Innovations",
+        "Channel_Used": "Google Ads",
+        "ROI_z": -1.7021995231251488,
+        "ROI_outlier": false,
+        "CTR_z": 6.491432586254921,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 171192,
+        "ROI": 6.67,
+        "CTR": 0.9840478564307079,
+        "Company": "Alpha Innovations",
+        "Channel_Used": "YouTube",
+        "ROI_z": 0.9614168496422535,
+        "ROI_outlier": false,
+        "CTR_z": 6.445878698013177,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 65535,
+        "ROI": 2.57,
+        "CTR": 0.983218163869694,
+        "Company": "DataTech Solutions",
+        "Channel_Used": "Instagram",
+        "ROI_z": -1.4023985461037094,
+        "ROI_outlier": false,
+        "CTR_z": 6.439539403246153,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 77443,
+        "ROI": 3.38,
+        "CTR": 0.9812807881773399,
+        "Company": "Innovate Industries",
+        "Channel_Used": "Instagram",
+        "ROI_z": -0.9354008703587753,
+        "ROI_outlier": false,
+        "CTR_z": 6.42473681712523,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 173975,
+        "ROI": 5.32,
+        "CTR": 0.9721946375372393,
+        "Company": "NexGen Systems",
+        "Channel_Used": "Website",
+        "ROI_z": 0.18308739006736344,
+        "ROI_outlier": false,
+        "CTR_z": 6.355313768261466,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 67651,
+        "ROI": 6.55,
+        "CTR": 0.9704724409448819,
+        "Company": "DataTech Solutions",
+        "Channel_Used": "Email",
+        "ROI_z": 0.892232008791152,
+        "ROI_outlier": false,
+        "CTR_z": 6.342155265511513,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 14262,
+        "ROI": 3.77,
+        "CTR": 0.9699029126213592,
+        "Company": "TechCorp",
+        "Channel_Used": "Email",
+        "ROI_z": -0.7105501375926958,
+        "ROI_outlier": false,
+        "CTR_z": 6.337803764617535,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 63985,
+        "ROI": 3.37,
+        "CTR": 0.9695181907571289,
+        "Company": "NexGen Systems",
+        "Channel_Used": "Website",
+        "ROI_z": -0.9411662737630336,
+        "ROI_outlier": false,
+        "CTR_z": 6.334864283880605,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 165410,
+        "ROI": 3.45,
+        "CTR": 0.9691848906560636,
+        "Company": "Alpha Innovations",
+        "Channel_Used": "Instagram",
+        "ROI_z": -0.895043046528966,
+        "ROI_outlier": false,
+        "CTR_z": 6.3323176929072575,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 84190,
+        "ROI": 4.09,
+        "CTR": 0.9640718562874252,
+        "Company": "Innovate Industries",
+        "Channel_Used": "Website",
+        "ROI_z": -0.5260572286564257,
+        "ROI_outlier": false,
+        "CTR_z": 6.293251376611608,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 180495,
+        "ROI": 5.15,
+        "CTR": 0.9628180039138943,
+        "Company": "Alpha Innovations",
+        "Channel_Used": "Instagram",
+        "ROI_z": 0.0850755321949699,
+        "ROI_outlier": false,
+        "CTR_z": 6.283671274096972,
+        "CTR_outlier": true
+      },
+      {
+        "Campaign_ID": 34234,
+        "ROI": 4.95,
+        "CTR": 0.9615004935834156,
+        "Company": "Alpha Innovations",
+        "Channel_Used": "Instagram",
+        "ROI_z": -0.030232535890199124,
+        "ROI_outlier": false,
+        "CTR_z": 6.273604790756089,
+        "CTR_outlier": true
+      }
+    ]
+  },
+  "rule_based_insights": [
+    {
+      "type": "channel_roi",
+      "message": "Top channel by ROI: Facebook (avg ROI=5.0187). Lowest: Instagram (avg ROI=4.9887)."
+    }
+  ]
+}
